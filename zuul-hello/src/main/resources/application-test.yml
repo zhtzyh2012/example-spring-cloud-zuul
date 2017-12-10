@@ -1,0 +1,4 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaserver2:8001/eureka/

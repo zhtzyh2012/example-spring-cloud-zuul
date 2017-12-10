@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hello-service
+
+  profiles:
+    active: $spring.profiles.active$
+  http:
+    encoding:
+      charset: utf-8
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      file-size-threshold: 10
+
+server:
+  port: 8002
+  context-path: /
