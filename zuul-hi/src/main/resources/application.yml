@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hi-service
+
+  profiles:
+    active: $spring.profiles.active$
+
+
+server:
+  port: 8003
+  context-path: /
