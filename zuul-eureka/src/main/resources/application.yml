@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eureka-server
+
+  profiles:
+    active: $spring.profiles.active$
+
+
+server:
+  port: 8001

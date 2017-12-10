@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    hostname: eurekaserver4
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 120
+
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eurekaserver4:8001/eureka/
